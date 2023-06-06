@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "gaurav-nodejs"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-12"
+    "humanitec.com/appId": "gaurav-nodejs"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
